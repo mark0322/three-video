@@ -65,7 +65,7 @@ export class BasicThree {
     axesHelper.position.y = 0.01
     this.scene.add(axesHelper)
 
-    // 网格
+    // 10*10 的辅助网格
     const gridHelper = new THREE.GridHelper(10, 10)
     this.scene.add(gridHelper)
   }
